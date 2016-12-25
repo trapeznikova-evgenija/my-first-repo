@@ -65,4 +65,6 @@ BEGIN
   WRITE('ELKA');
   WRITELN('С НОВЫМ ГОДОМ=)');
   WRITE('SESSIYA URAAAAAA')
+  WRITE('sooolnzeee')
+  
 END.
