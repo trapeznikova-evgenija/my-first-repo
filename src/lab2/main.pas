@@ -42,26 +42,5 @@ BEGIN
             END;
           WRITELN(F2, Ch1);
         END;
-      RESET(F2); {Копируем F2 в F1}
-      REWRITE(F1);
-      WHILE NOT EOLN(F2) 
-      DO
-        BEGIN
-          READ(F2, Ch);
-          WRITE(F1, Ch);
-        END;
-      WRITELN(F1);
-    END;
-  RESET(F1); {F1 копируется в OUTPUT}
-  WHILE NOT EOLN(F1) 
-  DO
-    BEGIN
-      READ(F1, Ch);
-      WRITE(OUTPUT, Ch)
-    END;
-  WRITELN(OUTPUT);
-  WRITE('LOUN');
-  WRITE('LAAAAAAAPKAA');
-  WRITE('APELSIN')
-  WRITE('SESSIYA URAAAAAA')
+
 END.

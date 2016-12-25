@@ -55,12 +55,6 @@ BEGIN
       WRITELN(OUTPUT)
     END;
   RESET(F1); {F1 копируется в OUTPUT}
-  WHILE NOT EOLN(F1) 
-  DO
-    BEGIN
-      READ(F1, Ch);
-      WRITE(OUTPUT, Ch)
-    END;
   WRITELN(OUTPUT); 
   WRITE('ELKA');
   WRITELN('С НОВЫМ ГОДОМ=)');
